@@ -1,0 +1,54 @@
+.orbit {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-opacity: 50%; 
+    fill: transparent;
+}
+
+.planet {
+    stroke-width: 0px;
+}
+
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+#mercury {
+    transform-origin: 50% 50%;
+    -webkit-animation: spin 2.4s linear infinite;
+}
+
+#venus {
+    transform-origin: 50% 50%;
+    -webkit-animation: spin 6.2s linear infinite;
+}
+
+#earth {
+    transform-origin: 50% 50%;
+    -webkit-animation: spin 10s linear infinite;
+}
+
+#mars {
+    transform-origin: 50% 50%;
+    -webkit-animation: spin 18s linear infinite;
+}
+
+#jupiter {
+    transform-origin: 50% 50%;
+    -webkit-animation: spin 30s linear infinite;
+}
+
+#saturn {
+    transform-origin: 50% 50%;
+    -webkit-animation: spin 45s linear infinite;
+}
+
+#uranus {
+    transform-origin: 50% 50%;
+    -webkit-animation: spin 60s linear infinite;
+}
+
+#neptune {
+    transform-origin: 50% 50%;
+    -webkit-animation: spin 80s linear infinite;
+}
